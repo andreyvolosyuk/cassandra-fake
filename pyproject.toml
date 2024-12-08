@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-cassandra-fake"
+version = "0.0.1"
+authors = [
+  { name="Andrei Valasiuk", email="valasiuk.andrei@gmail.com" },
+]
+description = "Django Cassandra Fake"
+readme = "README.md"
+requires-python = ">=3.8"
+keywords= ["django", "cassandra", "engine", "backend", "driver", "database", "testing", "fake"]
+classifiers = [
+    'Environment :: Plugins',
+    'Framework :: Django',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Topic :: Database',
+    'Topic :: Internet',
+    'Topic :: Software Development :: Libraries :: Python Modules'
+]
+
+[project.urls]
+Homepage = "https://github.com/andreyvolosyuk/cassandra-fake"
+Issues = "https://github.com/andreyvolosyuk/cassandra-fake/issues"
